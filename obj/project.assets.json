@@ -4373,11 +4373,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\txema.clifford\\Desktop\\Step Communications\\StepProject.csproj",
+      "projectUniqueName": "C:\\Users\\txema.clifford\\Desktop\\New\\Step Communications\\stepcommunications\\StepProject.csproj",
       "projectName": "StepProject",
-      "projectPath": "C:\\Users\\txema.clifford\\Desktop\\Step Communications\\StepProject.csproj",
+      "projectPath": "C:\\Users\\txema.clifford\\Desktop\\New\\Step Communications\\stepcommunications\\StepProject.csproj",
       "packagesPath": "C:\\Users\\txema.clifford\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\txema.clifford\\Desktop\\Step Communications\\obj\\",
+      "outputPath": "C:\\Users\\txema.clifford\\Desktop\\New\\Step Communications\\stepcommunications\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

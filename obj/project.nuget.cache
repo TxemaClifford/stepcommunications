@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yF65IhZdv+6tpk6Z8uK2P1bIdJBkOk7Nnyse3ATZbyTEQnpVXWWZky1tAx9Hht/ZpBUXq3cb441IMnx7ydEHwQ==",
+  "dgSpecHash": "dLs0/p80Wac=",
   "success": true,
-  "projectFilePath": "C:\\Users\\txema.clifford\\Desktop\\Step Communications\\StepProject.csproj",
+  "projectFilePath": "C:\\Users\\txema.clifford\\Desktop\\New\\Step Communications\\stepcommunications\\StepProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\txema.clifford\\.nuget\\packages\\dinktopdf\\1.0.8\\dinktopdf.1.0.8.nupkg.sha512",
     "C:\\Users\\txema.clifford\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
