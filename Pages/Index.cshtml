@@ -1,0 +1,65 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Generate Invoice PDF</h1>
+    <p>Enter the JSON data below and click "Generate PDF" to create an invoice.</p>
+</div>
+
+<div class="container">
+    <form id="invoiceForm" method="post" action="Invoice/Generate">
+        <div class="form-group">
+            <label for="jsonData">JSON Data</label>
+            <textarea class="form-control" id="jsonData" name="jsonData" rows="10" required>
+{
+    "request": [
+        {
+            "order_id": 62654,
+            "sales_person": "Jed Blackthorn",
+            "order_confirmed_date": "2022-12-16T16:51:00",
+            "currency_name": "GBP",
+            "special_instructions": null,
+            "invoice_advertiser": "Alpha Inc",
+            "invoice_company_name": "Alpha Inc",
+            "invoice_address1": "40 Septon Drive",
+            "invoice_address2": null,
+            "invoice_address3": null,
+            "invoice_city": "Portsmouth",
+            "invoice_state_county": "Hampshire",
+            "invoice_post_code": "SO23 4KL",
+            "invoice_country_name": "United Kingdom",
+            "invoice_contact_name": "Daenarys Baseley",
+            "invoice_contact_email_address": "dbaseley@alphainc.com",
+            "items": [
+                {
+                    "order_item_id": 52849,
+                    "product_name": "Clinical Services Journal",
+                    "purchase_order": "PO 566/21",
+                    "item": "Quarter Page",
+                    "month_name": "May",
+                    "year": 2024,
+                    "gross_price": 375.0,
+                    "net_price": 375.0
+                },
+                {
+                    "order_item_id": 52850,
+                    "product_name": "Clinical Services Journal",
+                    "purchase_order": "PO 566/21",
+                    "item": "Quarter Page",
+                    "month_name": "June",
+                    "year": 2024,
+                    "gross_price": 375.0,
+                    "net_price": 375.0
+                }
+            ]
+        }
+    ]
+}
+            </textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Generate PDF</button>
+    </form>
+</div>
